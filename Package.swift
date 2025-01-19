@@ -20,14 +20,7 @@ let package = Package(
         
         .target(
             name: "here-map-package",
-            dependencies: [
-                "heresdk"
-            ],
             path: "Sources"
-        ),
-        .binaryTarget(
-            name: "heresdk",
-            path: "Frameworks/heresdk.xcframework"
         ),
         .testTarget(
             name: "here-map-packageTests",
